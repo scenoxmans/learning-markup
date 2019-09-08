@@ -1,8 +1,121 @@
-.swagstyle {
-  color: blue
+table {
+border-collapse: collapse;
+text-align: left;
+margin-bottom: 20px;
+width:auto;
+font-size: 12px;
+color: #000000;
 }
-table td, th {
-  border: 1px solid black;
-  color: #FF0000 ;
+th.empty {
+background: #fff;
+}
+tr.empty:hover {
+background: #fff;
+}
+th {
+background-color: #8FD4C1;
+font-weight: normal;
+font-size: 15px;
+padding: 0 10px;
+color: #fff;
+text-shadow:#414141 0 1px 0px;
+line-height: 40px;
+}
+tbody tr {
+font-weight: normal;
+background-color: #ffffff;
+}
+tbody tr:nth-child(even) {
+background-color: #ffffff;
+}
+tbody tr:hover {
+background-color: #eaeaea;
+}
+td {
+padding: 9px 10px;
+border-left: #d7d7d7 1px solid;
+border-top: #d7d7d7 1px solid;
+border-bottom: #d7d7d7 1px solid;
+line-height: 20px;
+}
+tr td:first-child {
+border-left:0;
+}
 
+      .bg {
+              background-color: lightgrey;
+                  font-size: 12px
 }
+
+.rounded {
+counter-reset: li;
+list-style: none;
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded li {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded li:hover {background: #E9E4E0;}
+.rounded li:hover:before {transform: rotate(360deg);}
+.rounded li:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+
+.tsh{
+  font-family: "Liberation Mono"
+}
+
+
+.border {
+list-style: none;
+padding: 0;
+}
+.border li {
+font-family: "Trebuchet MS", "Lucida Sans";
+padding: 7px 20px;
+margin-bottom: 10px;
+border-radius: 5px;
+border-left: 10px solid #8FD4C1;
+box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+font-size: 20px;
+letter-spacing: 2px;
+transition: 0.3s all linear;
+}
+.border li:nth-child(2){border-color: #8FD4C1;}
+.border li:nth-child(3){border-color: #8FD4C1;}
+.border li:nth-child(4){border-color: #8FD4C1;}
+.border li:nth-child(5){border-color: #8FD4C1;}
+.border li:hover {border-left: 10px solid transparent;}
+.border li:nth-child(1):hover {border-right: 10px solid #8FD4C1;}
+.border li:nth-child(2):hover {border-right: 10px solid #8FD4C1;}
+.border li:nth-child(3):hover {border-right: 10px solid #8FD4C1;}
+.border li:nth-child(4):hover {border-right: 10px solid #8FD4C1;}
+.border li:nth-child(5):hover {border-right: 10px solid #8FD4C1;}
