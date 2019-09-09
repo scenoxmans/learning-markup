@@ -1,2 +1,2 @@
-Hi:wave:
-click this https://scenoxmans.github.io/learning-markup/ to navigate!
+Hi:wave:!Welcome. My name is Mansur. 
+Click this to see my skillz:yum:!
