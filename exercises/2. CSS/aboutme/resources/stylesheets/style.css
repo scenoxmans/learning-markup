@@ -144,17 +144,40 @@ td::first-letter{
 .fa-stack1:hover{
   color: blue;
 }
-ul{
- display:flex;
- flex-direction: row;
- align-items: center;
- justify-content: center;
-}
 ul li{
   list-style: none;
   width: 400px;
 }
 .vl {
-  border-left: 6px solid white;
-  height: 500px;
+  border-left: 1px solid white;
+  height: 400px;
+}
+
+footer{
+  width:200px;
+   height:100px;
+   background:blue;
+   border:solid thick darkblue; border-radius: 1em;
+          border-width:3px; padding-left:9px; padding-top:6px;
+          padding-bottom:6px; margin:2px; width:980px;"
+}
+.githublogo{
+  display: flex;
+  align-items: flex-start;
+
+
+}
+}
+.stackoverflow{
+display: flex;
+justify-content: center;
+}
+.linkedin{
+  display: flex;
+  align-items: flex-end;
+}
+
+#logos{
+display: flex;
+flex-direction: row;
 }

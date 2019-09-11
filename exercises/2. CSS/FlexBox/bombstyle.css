@@ -71,10 +71,12 @@ opacity: 0.0;
 span:hover {
 opacity: 1.0;
 }
-.BOOM{
-  background-color: red;
-}
+
 .sasuke:hover{
   background: url(naruto.jpg);
   background-size:cover;
+}
+.BOOM:hover{
+  background-color: red;
+  opacity: 1;
 }
