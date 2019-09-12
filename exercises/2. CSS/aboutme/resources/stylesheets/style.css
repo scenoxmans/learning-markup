@@ -46,9 +46,7 @@ body {
 -moz-border-radius: 15px;
 border-radius: 15px;
   font-size: 72px;
-  -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
--moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+
 }
 img:hover {
     webkit-filter: blur(4px); /* Chrome, Safari, Opera */
@@ -148,23 +146,22 @@ ul li{
   list-style: none;
   width: 400px;
 }
-.vl {
-  border-left: 1px solid white;
-  height: 400px;
+.vl1 {
+  display: flex;
+  justify-content: flex-start;
+  border-left: 20px solid white;
+  height: auto;
+}
+.vl2 {
+  display: flex;
+  justify-content: flex-end;
+  border-left: 20px solid white;
+  height: auto;
 }
 
-footer{
-  width:200px;
-   height:100px;
-   background:blue;
-   border:solid thick darkblue; border-radius: 1em;
-          border-width:3px; padding-left:9px; padding-top:6px;
-          padding-bottom:6px; margin:2px; width:980px;"
-}
 .githublogo{
   display: flex;
-  align-items: flex-start;
-
+  justify-content: flex-start;
 
 }
 }
@@ -174,10 +171,18 @@ justify-content: center;
 }
 .linkedin{
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 #logos{
 display: flex;
 flex-direction: row;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 100vw;
+   background:black;
+   box-shadow: 0px 0px 200px red;
 }
