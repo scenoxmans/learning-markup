@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head> 
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen"> 
+           /*Mansur*/
+
+@media only screen and (min-width: 0px) {   
+    #navbar {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/bg.page_head.gif);
+  width: 100%;
+  background-color: black;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  margin-top: 0;
+  left: 0;
+  font-size: 100%;
+}
+
+.logos{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+#navbar li {
+  border: #4d4d4d;
+  border-top: 1px solid;
+  text-align: left;
+  text-transform: uppercase;
+  top: 0;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+
+  
+}
+
+#navbar li:hover {
+  
+  color: #33aae7;
+  transition: 0.5s;
+}
+.logostyle{
+    width: 200px;
+    height: 54px;
+    transition: 0.4s;
+}
+.topnav ul{
+
+  list-style: none;
+  top: 0;
+  width: 100%;
+}
+.searchbar{
+    background: url(images/icon.search.gray.png) no-repeat right 12px top 9px #2b2b2c;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 10px;
+    text-indent: 10px;
+    z-index: 100;
+    width: 80%;
+    height: 34px;
+}
+.spacemargin{
+  margin: 0px 0px 0px 50px;
+}
+#footbar {
+  
+  background-image: url(images/bg.page_head.gif);
+  width:100%;
+  background-color: black;
+  transition: 0.4s;
+  z-index: 1000;
+  font-size: 100%;
+}
+
+#footbar li {
+  border: #4d4d4d;
+  border-top: 1px solid;
+  text-align: left;
+  text-transform: uppercase;
+  top: 0;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-top: 0;
+  padding: 0;  
+}
+
+#footbar li:hover {
+
+  color: #33aae7;
+  transition: 0.5s;
+}
+
+
+
+.logostylegray{
+    width: 200px;
+    height: 54px;
+    transition: 0.4s;
+    
+}
+.foot ul{
+  list-style: none;
+  top: 0;
+}
+
+.copyrights{
+  padding: 0 25px 25px;
+  color: gray;
+}
+.wantww{
+  color: #33aae7;
+  text-transform: uppercase;
+}
+.sendyou{
+  color: #fff;
+}
+.signin{
+  width: 100%;
+  background: #212121;
+  padding: 25px;
+}
+.years{
+  color: #fff;
+}
+.signup{
+  border: 1px solid #fff;
+  color: #fff;
+  width: 31.33333%;
+  margin-left: 0;
+  margin-right: 3%;
+  margin-right: 0;
+  border-radius: 45px;
+  background: #212121;
+}
+.email{
+    margin-left: 0;
+    margin-right: 3%;
+    background: #4d4d4d;
+    border: 0;
+    color: #fff;
+}
+.shape{
+    border: 1px solid #33aae7;
+    background: #33aae7;
+    width: 25%;
+    height: 30px;
+    letter-spacing: .57px;
+    line-height: 36px;
+    max-width: 180px;
+    outline: none;
+    padding: 0 20px;
+   float: right;
+    border-radius: 45px;
+    text-align: center;
+}
+.textstyling{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+           }
+           @media only screen and (min-width: 768px) {
+  #navbar {
+  display: flex;
+  flex-direction: row;
+  background-image: url(images/bg.page_head.gif);
+  width:100%;
+  max-height: 140px;
+  background-color: black;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  margin-top: 0;
+  left: 0;
+  font-size: 100%;
+}
+
+.logos{
+  opacity: 0;
+}
+
+#navbar li {
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+  top: 0;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-top: 0;
+  border: 0;
+  padding: 0;  
+}
+
+#navbar li:hover {
+
+  color: #33aae7;
+  transition: 0.5s;
+}
+
+  #navbar li {
+    display: inline;
+  }
+
+
+.logostyle{
+    width: 200px;
+    height: 54px;
+    transition: 0.4s;
+    
+}
+.topnav ul{
+  top: 0;
+  width: 100%;
+}
+.searchbar{
+  margin: 0 0 20px 0;
+    height: 34px;
+    width: 150px;
+    background: url(images/icon.search.gray.png) no-repeat right 12px top 9px #2b2b2c;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 10px;
+    text-indent: 10px;
+    z-index: 100;
+    float: right;
+}
+footer{
+  display: flex;
+  width: 100%;
+  
+}
+    #footbar {
+  float: left;
+  right: 0;
+  background-image: url(images/bg.page_head.gif);
+  width:50%;
+  background-color: black;
+  transition: 0.4s;
+  z-index: 1000;
+  
+}
+
+
+
+#footbar li {
+  margin: 0 0 0 10px;
+  text-transform: uppercase;
+  top: 0;
+  font-size: 15px;
+  color: white;
+  margin-top: 0;
+  border: 0;
+  padding: 0;  
+}
+
+#footbar li:hover {
+
+  color: #33aae7;
+  transition: 0.5s;
+}
+
+
+
+.logostylegray{
+    width: 200px;
+    height: 54px;
+    transition: 0.4s;
+    
+}
+.foot ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  top: 0;
+  width: 80%;
+}
+
+.copyrights{
+  padding: 0 25px 25px;
+  color: gray;
+}
+.wantww{
+  color: #33aae7;
+  text-transform: uppercase;
+}
+.sendyou{
+  color: #fff;
+}
+.signin{
+  
+  background: #212121;
+  width: 50%;
+
+}
+.years{
+  color: #fff;
+}
+.signup{
+  font-size: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 31.33333%;
+  margin-left: 0;
+  margin-right: 3%;
+  margin-right: 0;
+  border-radius: 45px;
+  background: #212121;
+}
+.email{
+    margin-left: 0;
+    margin-right: 3%;
+    background: #4d4d4d;
+    border: 0;
+    color: #fff;
+}
+.shape{
+    
+    border: 1px solid #33aae7;
+    background: #33aae7;
+    letter-spacing:0;
+    line-height: 36px;
+    outline: none;
+    float: right;
+    border-radius: 45px;
+    text-align: center;
+}
+.textstyling{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+hr{
+  opacity: 0;
+}
+
+          }
+           @media only screen and (min-width: 1200px) {
+            #navbar {
+  display: flex;
+  flex-direction: row;
+  background-image: url(images/bg.page_head.gif);
+  width:100%;
+  max-height: 140px;
+  background-color: black;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  margin-top: 0;
+  left: 0;
+  font-size: 100%;
+}
+.spacemargin{
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px 0px 100px;
+
+}
+.logos{ 
+  margin: 15px 0 0 0;
+  opacity: 1;
+}
+.spacemargin:hover{
+  background-color: #33aae7;
+  border-radius: 50%;
+
+}
+
+
+#navbar li {
+  margin: 0 0 0 10px;
+  text-transform: uppercase;
+  top: 0;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-top: 0;
+  border: 0;
+  padding: 0;  
+}
+
+#navbar li:hover {
+
+  color: #33aae7;
+  transition: 0.5s;
+}
+
+  #navbar li {
+    display: inline;
+  }
+
+
+.logostyle{
+    width: 200px;
+    height: 54px;
+    transition: 0.4s;
+    
+}
+.topnav ul{
+  top: 0;
+  width: 100%;
+}
+.searchbar{
+    height: 34px;
+    width: 150px;
+    background: url(images/icon.search.gray.png) no-repeat right 12px top 9px #2b2b2c;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 10px;
+    text-indent: 10px;
+    z-index: 100;
+    margin: 0 0 20px 0;
+    
+}
+ 
+           }
+
+
+            /*Kris*/
+            @media only screen and (min-width: 0px) { 
+              .grid1container {
+        display: grid;
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(images/girl-with-toy.png);
+        padding-top: 290px;
+        padding-right:290px;
+        background-size: cover;        
+        }
+             }
+             @media only screen and (min-width: 768px){
+        .grid1container {
+        display: grid;
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(images/ugly.jpg);
+        padding-top: 290px;
+        padding-right: 290px;
+        background-size: cover;
+        }
+        }        
+        .grid1_sec1 {
+        padding-top: 200px;
+        color: #000;
+        font: 400 6.25rem/4.5rem "BlenderProBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        letter-spacing: -3.5px;        
+        padding-bottom: 40px;            
+        }
+        .grid1_sec2 {         
+        min-width: 180px;
+        height: 45px;
+        letter-spacing: 1.08px;
+        line-height: 45px;
+        font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        text-transform: uppercase;
+        border-radius: 45px;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: #00f2cd;
+        border-radius: 45px;
+        justify-self: left;
+        }
+        
+        .grid2container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        background-color: white;
+        }
+        
+        
+        
+        .grid2_sec1 {
+        font: 400 6.25rem/6.25rem "BlenderProBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        color: #33aae7;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: -3,5px;
+        text-shadow: 5px 10px 2px rgba(0, 0, 0, .1);
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding-top: 30px;
+        }
+        .grid2_sec2 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        box-sizing: border-box;
+        justify-self: center;
+        }        
+        .grid2_sec3 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        box-sizing: border-box;
+        justify-self: center;
+        }
+        .grid2_sec4 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        box-sizing: border-box;
+        justify-self: center;
+        }
+        .grid2_sec5 {
+        font: 400 2.1875rem/1.5625rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        letter-spacing: 1.4px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        text-align: center;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-self: center;
+        }
+        .grid2_sec6 {
+        font: 400 2.1875rem/1.5625rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        letter-spacing: 1.4px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        text-align: center;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-self: center;
+        }
+        .grid2_sec7 {
+        font: 400 2.1875rem/1.5625rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        letter-spacing: 1.4px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        text-align: center;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-self: center;
+        }
+        .grid2_sec8 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-self: center;
+        } 
+        .grid2_sec9 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-self: center;
+        }
+        .grid2_sec10 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-self: center;
+        }
+        .grid2_sec11 {
+        font: 400 "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        letter-spacing: 1.4px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        text-align: center;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        justify-self: center;
+        }
+        .grid2_sec12 {
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-self: center;
+        }        
+        .grid3container {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-rows: 100px auto auto auto;
+        margin: 0 auto;
+        max-width: 1400px;
+        background-image: url("");
+        background-color: #2b2b2c;
+        overflow: hidden;       
+        }
+        .grid3_sec1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        color: #fff;
+        text-transform: uppercase;
+        padding-top: 70px;
+        align-self: bottom;
+        }
+        .grid3_sec2 {        
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font: 400 6.25rem/6.25rem "BlenderProBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        color: #33aae7;
+        text-transform: uppercase;
+        }
+        .grid3_sec3 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding: 30px 0;
+        font: 400 1rem/1.375rem "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+        }
+        .grid3_sec4 {
+          grid-row-start: 4;
+          grid-row-end: 5;
+          grid-column-start: 1;
+          grid-column-end: 2;                    
+        }
+        .findout_button {
+        max-width: none;
+        min-width: 180px;
+        display: inline-block;
+        border: 1px solid #33aae7;
+        color: #33aae7;
+        background: 0 0;
+        font-size: 18px;
+        height: 45px;
+        letter-spacing: 1.08px;
+        line-height: 45px;
+        border-radius: 45px;
+        font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        padding: 0 20px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        }
+        .blue_button {        
+        font-size: 18px;
+        width: 180px;
+        height: 45px;
+        letter-spacing: 1.08px;        
+        line-height: 45px;
+        border-radius: 45px;
+        font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+        padding: 0 20px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid #33aae7;
+        background: #33aae7;
+        color: #fff;
+        transition: background 200ms, border 200ms, color 200ms;        
+        }
+        .blue_button:hover {
+          background: #fff;
+          color: #33aae7;
+        }
+        .grid3container img {
+        grid-column-start: 2;
+        grid-column-end: 3;   
+        grid-row-start: 1;
+        grid-row-end: 4;
+        align-self: center;
+        }
+        .button_aesthetic {
+        max-width: 180px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        }
+    /*Laurens*/
+
+        
+
+        
+        
+    /*small (min-width 0px)*/
+
+    @media only screen and (min-width: 0px) {
+    /*featured products*/
+        
+        img {
+          width: 100%;
+          height: auto;
+        } 
+        
+        .fp-heading {
+          width: 100%;
+          text-align: center;
+        } 
+        
+        .fp-container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          text-align: center;
+          justify-content: space-evenly;
+          align-items: center; 
+        }
+        
+        .fp-container > img {
+          margin: 0 auto;
+        }
+        
+        .fp-heading h3 {
+          font-family: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 12px;
+          margin-top: 30px;
+          margin-bottom: 0px;
+        }
+
+        .fp-heading h1 {
+          color: #33aae7;
+          font-size: 40px;
+          margin-top: 0;
+          text-shadow: -6px 5px 2px rgba(0,0,0,.1);
+          position: relative;
+          text-transform: uppercase;
+          letter-spacing: -3,5px;
+          padding-top: 0px;
+          font-family: "BlenderProBold","Helvetica Neue","Helvetica",Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .fp-split {
+          width: 30%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .fp-image {
+          max-width: 300px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .fp-logo {
+          max-width: 120px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .fp-text {
+          font: 400 0.75rem/1rem "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+        }
+                
+        .fp-button {
+          border-radius: 45px;
+          border: 1px solid #33aae7;
+          color: #33aae7;
+          line-height: 36px;
+          max-width: 160px;
+          padding: 0 20px;
+          margin: 0 auto;
+          text-transform: uppercase;
+          font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-align: center;
+          display: inline-block;
+          margin: 20px; 
+        }
+
+        .fp-button > a {
+          text-decoration: none;
+          color: #33aae7;
+        }
+        
+        .fp-button:hover {
+          color: white;
+          background-color: #33aae7;
+          text-decoration: none;
+        }
+
+    /*news*/
+        
+        .news h1 {
+          color: white;
+          font-size: 40px;
+        }
+
+        .news p {
+          overflow-wrap: break-word;
+        }
+
+        .news {
+          text-align: center;
+          font-family: sans-serif;
+          background-color: #212121;
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto auto auto;
+          grid-gap: 15px;
+          margin-top: 20px;
+          width: 100%;
+        }
+
+        .news-top {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        
+        .top-image {
+          width: 289px;
+          height: 10px;
+        }
+
+        .news-1 {
+          grid-column: 1/3;
+          grid-row: 2/3; 
+          margin-left: 44px;
+          margin-right: 44px;
+          background-color: white;
+        }
+
+        .news-1-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-1-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-1-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+        }
+
+        .news-1-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+        }
+
+        .news-1-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-1-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+        }
+
+        .news-1-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-2 {
+          grid-column: 1/2;
+          grid-row: 3/4; 
+          margin-left: 44px;
+          background-color: white;
+        }
+
+        .news-2-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-2-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-2-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: hidden;
+        }
+
+        .news-2-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: hidden;
+        }
+
+        .news-2-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-2-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: hidden;
+        }
+
+        .news-2-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-3 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          margin-right: 44px;
+          background-color: white;
+        }
+
+        .news-3-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-3-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-3-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: hidden;
+        }
+
+        .news-3-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: hidden;
+        }
+
+        .news-3-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-3-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: hidden;
+        }
+
+        .news-3-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-4 {
+          grid-column: 1/2;
+          grid-row: 4/5; 
+          margin-left: 44px;
+          background-color: white;
+          visibility: hidden
+        }
+
+        .news-4-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-4-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-4-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: hidden;s
+        }
+
+        .news-4-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: hidden;
+        }
+
+        .news-4-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-4-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: hidden;
+        }
+
+        .news-4-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-5 {
+          grid-column: 2/3;
+          grid-row: 4/5; 
+          margin-right: 44px;
+          background-color: white;
+          visibility: hidden;
+        }
+
+        .news-5-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-5-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-5-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: hidden;s
+        }
+
+        .news-5-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: hidden;
+        }
+
+        .news-5-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-5-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: hidden;
+        }
+
+        .news-5-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-bottom {
+          grid-column: 1/3;
+          grid-row: 5/6;
+          padding-top: 20px;
+          margin: 30px 0 55px;
+        }
+
+        .news-button {
+          border-radius: 45px;
+          border: 1px solid white;
+          color: white;
+          padding: 0 20px;
+          font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+          height: 37px;
+          letter-spacing: .57px;
+          height: 37px;
+          line-height: 36px;
+          max-width: 180px;
+          outline: none;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+    }
+
+    
+
+        
+        
+    /*medium (min-width 768px)*/
+
+    @media only screen and (min-width: 768px) {
+    /*featured products*/
+        
+        img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .fp-heading {
+          width: 100%;
+          text-align: center;
+        }
+
+        .fp-container {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          text-align: center;
+          justify-content: space-evenly;
+          align-items: center; 
+        }
+        
+        .fp-container > img {
+          margin: 0 auto;
+        }
+        
+        .fp-heading h3 {
+          font-family: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 12px;
+          margin-top: 30px;
+          margin-bottom: 0px;
+        }
+
+        .fp-heading h1 {
+          color: #33aae7;
+          font-size: 40px;
+          margin-top: 0;
+          text-shadow: -6px 5px 2px rgba(0,0,0,.1);
+          position: relative;
+          text-transform: uppercase;
+          letter-spacing: -3,5px;
+          padding-top: 0px;
+          font-family: "BlenderProBold","Helvetica Neue","Helvetica",Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .fp-image {
+          max-width: 300px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .fp-split {
+          width: 30%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .fp-logo {
+          max-width: 120px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .fp-text {
+          font: 400 0.75rem/1rem "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+        }
+                
+        .fp-button {
+          border-radius: 45px;
+          border: 1px solid #33aae7;
+          color: #33aae7;
+          height: 37px;
+          line-height: 36px;
+          max-width: 160px;
+          padding: 0px 20px;
+          margin: 0 auto;
+          text-transform: uppercase;
+          font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 20px; 
+        }
+        
+        .fp-button:hover {
+          color: white;
+          background-color: #33aae7;
+          text-decoration: none;
+        }
+
+    /*news*/
+        
+        .news h1 {
+          color: white;
+          font-size: 40px;
+        }
+
+        .news p {
+          overflow-wrap: break-word;
+        }
+
+        .news {
+          background-color: #212121;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-template-rows: auto 1fr 1fr auto;
+          grid-gap: 15px;
+          margin-top: 20px;
+          width: 100%;
+          justify-content: center;
+          align-self: center;
+        }
+
+        .news-top {
+          grid-column: 1/4;
+          grid-row: 1/2;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+        }
+        
+        .top-image {
+          width: 289px;
+          height: 10px;
+        }
+
+        .news-1 {
+          grid-column: 1/3;
+          grid-row: 2/3; 
+          background-color: white;
+          margin: auto;
+        }
+
+        .news-1-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-1-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-1-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+        }
+
+        .news-1-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+        }
+
+        .news-1-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-1-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+        }
+
+        .news-1-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+
+        .news-2 {
+          grid-column: 3/4;
+          grid-row: 2/3; 
+          background-color: white;
+          margin: auto;
+        }
+
+        .news-2-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-2-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-2-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: visible;
+        }
+
+        .news-2-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: visible;
+        }
+
+        .news-2-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-2-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: visible;
+        }
+
+        .news-2-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          background-color: white;
+          margin: auto;
+        }
+
+        .news-3-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-3-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-3-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: visible;
+        }
+
+        .news-3-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: visible;
+        }
+
+        .news-3-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-3-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: visible;
+        }
+
+        .news-3-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+
+        .news-4 {
+          grid-column: 2/3;
+          grid-row: 3/4; 
+          margin-left: 44px;
+          background-color: white;
+          visibility: visible;
+          margin: auto;
+        }
+
+        .news-4-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-4-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-4-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: visible;
+        }
+
+        .news-4-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: visible;
+        }
+
+        .news-4-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-4-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: visible;
+        }
+
+        .news-4-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-5 {
+          grid-column: 3/4;
+          grid-row: 3/4; 
+          margin-right: 44px;
+          background-color: white;
+          visibility: visible;
+          margin: auto;
+        }
+
+        .news-5-text {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto auto auto;
+          padding: 15px;
+        }
+
+        .news-5-text-1 {
+          grid-column: 1/3;
+          grid-row: 1/2;
+          font-style: "RefrigeratorDeluxe","Helvetica Neue","Helvetica",Arial,sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          text-align: left;
+          font-weight: bold;
+
+        }
+
+        .news-5-text-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          visibility: visible;
+        }
+
+        .news-5-text-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+          font-style: "MontserratRegular","Helvetica Neue","Helvetica",Arial,sans-serif;
+          font-size: 6.5px;
+          color: grey;
+          text-align: left;
+          visibility: visible;
+        }
+
+        .news-5-text-3 > span {
+          text-transform: uppercase;
+          color: #33aae7;
+          font-size: 12px;
+        }
+
+        .news-5-text-4 {
+          grid-column: 2/3;
+          grid-row: 3/4;
+          color: grey;
+          visibility: visible;
+        }
+
+        .news-5-text-4 > a {
+          text-decoration: none;
+          color: grey;
+        }
+
+        .news-bottom {
+          grid-column: 1/4;
+          grid-row: 4/5;
+          padding-top: 20px;
+          margin: 30px 0 55px;
+        }
+
+        .news-button {
+          border-radius: 45px;
+          border: 1px solid white;
+          color: white;
+          padding: 20px 20px;
+          font: 400 0.59375rem/1.5rem "RefrigeratorDeluxeBold","Helvetica Neue","Helvetica",Arial,sans-serif;
+          height: 37px;
+          letter-spacing: .57px;
+          height: 37px;
+          line-height: 36px;
+          max-width: 180px;
+          outline: none;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+        }  
+
+    }
+
+
+    
+       </style>
+</head>
+  <body>
+        <header> 
+  
+            <div id="navbar">
+  <img src="images/logo.inline.svg" class="logostyle">
+ 
+         <div class="topnav">
+<ul>
+    
+    <li>products</li>
+    
+    <li>about</li>
+    
+    <li>news</li>
+    
+    <li>store</li>
+    
+  <div class="searchbar"></div>
+</ul>
+
+  </div>
+
+
+  <div class="logos">
+      <img src="images/icon.facebook.png" alt="face" class="spacemargin">
+      <img src="images/icon.twitter.png" alt="twitter" class="spacemargin">
+      <img src="images/icon.youtube.png" alt="youtube" class="spacemargin">
+      <img src="images/icon.instagram.png" alt="insta" class="spacemargin">
+    </div>
+
+</div>
+  </header>
+   
+
+    <!--Kris-->
+    <div class="grid1container">
+        <div class="grid1_sec1">Baby shark song puppets</div>
+        <div class="grid1_sec2 button_aesthetic">Learn more</div>
+    </div>
+
+    <div class="grid2container">
+        <div class="grid2_sec1">Product categories</div>
+        <div class="grid2_sec2"><a href""><img src="images/teletubbies.png"></a></div>
+        <div class="grid2_sec3"><a href""><img src="images/draak.png"></a></div>
+        <div class="grid2_sec4"><a href""><img src="images/cat.png"></a></div>
+        <div class="grid2_sec5">Fingerlings</div>
+        <div class="grid2_sec6">Untamed</div>
+        <div class="grid2_sec7">+More</div>
+        <div class="grid2_sec8 findout_button button_aesthetic"><a href"">Find out more</a></div>
+        <div class="grid2_sec9 findout_button button_aesthetic"><a href"">Find out more</a></div>
+        <div class="grid2_sec10 findout_button button_aesthetic"><a href"">Find out more</a></div>
+        <div class="grid2_sec11">View all categories</div>  
+        <div class="grid2_sec12 blue_button button_aesthetic"><a href="">Find out More</a></div>        
+    </div>
+
+    <div class="grid3container">
+        <div class="grid3_sec1">WowWee labs</div>
+        <div class="grid3_sec2">Bringing Tech to Toys</div>
+        <div class="grid3_sec3">
+            Explore our history including technology innovations and product launch highlights dating back to the original Robosapien.
+            Learn more about how we innovate and view concept sketches and prototypes for some of our latest products.
+            Access our free SDKs to develop your own apps to control our products.
+        </div>
+        <div class="grid3_sec4 blue_button button_aesthetic">
+            <a href="" >Find out more</a>
+        </div>
+        <div>
+            <img class="grid3_picture" src="images/roboflik.png">
+        </div>
+    </div>
+    
+    <!--Laurens-->
+    <!--Featured products-->
+    <div class="fp-heading"><h3>THE LATEST & GREATEST</h3><H1>FEATURED PRODUCTS</H1></div>
+    
+    <div class="fp-container">
+        
+        <div class="fp-alive-container">
+
+          <div class="fp-image"><img src="images/alive-cubs.png" alt="Alive cubs pluche"></div>
+          
+          <div class="fp-logo"><img src="images/alive-logo.svg" alt="Alive logo"></div>
+          
+          <div class="fp-split"><img src="images/split-line.png" alt="Split line"></div>
+            
+          <div class="fp-text">Playing with your cub is like having a real baby animal to take care of and nurture. Alive Cubs react with
+                 baby animal sounds and facial animations when you stroke his head or cradle him in your arms.</div>
+            
+          <div class="fp-button"><a href="/alive" class="btn btn--hollow btn--hollow--blue btn--max-180">Find Out More</a></div>     
+        
+        </div>
+        
+        <div class="fp-whats-that-smell-container">
+            
+          <div class="fp-image"><img src="images/smell-game.jpg" alt="what's that smell game"></div>
+          
+          <div class="fp-logo"><img src="images/wts-logo.svg" alt="What's that smell logo"></div>
+          
+          <div class="fp-split"><img src="images/split-line.png" alt="Split line"></div>
+          
+          <div class="fp-text">Coming August 2018: The Party Game That Stinks!
+                  What’s That Smell?™ is the hilariously fragrant new scratch
+                 'n sniff guessing game that throws your sense of smell into overdrive!</div>
+          
+          <div class="fp-button"><a href="/whatsthatsmell" class="btn btn--hollow btn--hollow--blue btn--max-180">Find Out More</a></div>
+          
+        </div>
+
+        
+        <div class="fp-baby-shark-container">
+          
+          <div class="fp-image"><img src="images/baby-shark-pluche.png" alt="Baby shark pluche"></div>
+            
+          <div class="fp-logo"><img src="images/babyshark-logo.svg" alt="Baby shark logo"></div>
+            
+          <div class="fp-split"><img src="images/split-line.png" alt="Split line"></div>
+            
+          <div class="fp-text">Meet the famous Shark Family singing plush dolls, cubes, and dancing doll. You won't be able to cuddle them
+                 enough! Have fun stacking the song cubes, cuddling with your favorite song doll, or dancing with the Baby
+                  Shark Dancing Doll to the hit Baby Shark song!</div>
+          
+          <div class="fp-button"><a href="https://babyshark.wowwee.com/" class="btn btn--hollow btn--hollow--blue btn--max-180">Find Out More</a></div>
+          
+        </div>
+
+    </div>
+<!--News-->
+    <div class="news">
+      
+        <div class="news-top">
+          
+          <img src="images/line.heading.left.png" class="top-image" alt="line">
+          <H1>NEWS</H1>
+          <img src="images/line.heading.left.png" class="top-image"  alt="line">
+        
+        </div>
+
+        <div class="news-1">
+          
+          <div class=news-img><img src="images/yourfuture.png" alt="image your future"></div>
+          
+          <div class="news-1-text">
+          <div class="news-1-text-1">KIDS THESE DAYS GET ALL THE LUCK. (LITERALLY.)</div>
+          <div class="news-1-text-2">Kids these days get all the luck. (Literally.) Lucky Fortune Bracelets From WowWee Are The Sweetest Surprise Accessory.</div> 
+          <div class="news-1-text-3">Alison Kresta on Apr 10 /<span>Romper</span></div>
+          <div class="news-1-text-4"><a href="">READ MORE ></a></div>
+
+          </div>
+
+        </div>
+
+        <div class="news-2">
+
+          <div class="news-img2"><img src="images/narwhals.jpg" alt="narwhal toys"></div>
+          
+          <div class="news-2-text">
+          <div class="news-2-text-1">FINGERLINGS NARWHALS COVERED BY PARENTS.COM</div>
+          <div class="news-2-text-2">The new Fingerlings Narwhal is the latest toy that will make you fall in love!</div>
+          <div class="news-2-text-3">jessica Hartshorn on Feb 12 / Parents.com</div>
+          <div class="news-2-text-4"><a href="">READ MORE ></a></div>
+
+          </div>
+
+        </div>  
+
+        <div class="news-3">
+          
+          <div class="news-img3"><img src="images/fortunehands.jpg" alt="fortune toy"></div>
+    
+          <div class="news-3-text">
+          <div class="news-3-text-1">LUCKY FORTUNE COVERED BY PARENTS</div>
+          <div class="news-3-text-2">This Lucky Fortune Toy Is a Must for Astrology-Loving Kids & Moms. Interview with toy creator, Sydney Wiseman.</div>
+          <div class="news-3-text-3">Jessica Hartshorn on May 26 / Parents.com</div>
+          <div class="news-3-text-4"><a href="">READ MORE ></a></div>
+
+          </div>
+        
+        </div>
+
+        <div class="news-4">
+          
+          <div class="news-img2"><img src="images/girls.jpg" alt="two girls"></div>
+          
+          <div class="news-4-text">
+          <div class="news-4-text-1">JUSTJORDAN33: FISH BOWL SLIME CHALLENGE WITH FINGERLINGS MINIS</div>          
+          <div class="news-4-text-2">You don't want to miss Jordan and Audrey from JustJordan33 as they unbox the new Fingerlings Minis!</div>          
+          <div class="news-4-text-3">May 25 / JustJordan33</div>          
+          <div class="news-4-text-4"><a href="">READ MORE ></a></div>
+
+          </div>
+
+        </div>
+
+        <div class="news-5">
+          
+          <div class="news-img2"><img src="images/girls2.jpg" alt="two girls 2"></div>
+          
+          <div class="news-5-text">
+          <div class="news-5-text-1">PRINCESS TOYSREVIEW FINDS FINGERLINGS MINIS IN CUPCAKES??!!</div> 
+          <div class="news-5-text-2">Check out Princess ToysReview's Fingerlings Minis themed party featuring cupcake bashing. You don't want to miss it.</div>
+          <div class="news-5-text-3">May 25 / Princess ToysReview</div>
+          <div class="news-5-text-4"><a href="">READ MORE ></a></div>
+
+          </div>
+        
+        </div>
+        
+        <div class="news-bottom">
+            
+          <a href="" class="news-button">VIEW ALL NEWs</a></div> 
+        
+        </div>
+
+        
+    </div>
+
+
+
+
+<footer>
+    
+    <div id="footbar">
+     
+  
+    
+  <img src="images/logo.inline.gray.svg" class="logostylegray">
+  <div class="shape"><a href="/where-to-buy" class="textstyling">Where To Buy</a></div>
+         <div class="foot">
+<ul>
+   
+    <li>contact</li>
+   
+    
+    <li>support</li>
+  
+    
+    <li>warranty</li>
+
+    
+    <li>privacy</li>
+   
+
+    <li>legal</li>
+  
+    
+    <li>careers</li>
+    
+</ul>
+
+  </div>
+
+
+  <div class="copyrights">
+      © 2019 WowWee Group Limited. All Rights Reserved.
+      </div>
+</div>
+
+<div class="signin">
+    <p class="wantww">WANT WOWWEE UPDATES AND OFFERS?</p>
+    <p class="sendyou">We'll send you WowWee news, product announcements and special offers.</p>
+    <div class="signin">
+        <input type="email" name="email" placeholder="Your email address" class="email">
+        <button type="submit" class="signup">Sign Up</button>
+        <p class="years"><input type="checkbox" name="allowed_age" value="1">I am over 13 years old</p>
+        </div>
+</footer>
+
+
+  </body>
+  <script>
+  
+  
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "0px 0px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "20px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+  
+  
+  </script>
+
+</html>

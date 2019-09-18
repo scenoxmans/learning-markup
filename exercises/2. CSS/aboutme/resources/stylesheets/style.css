@@ -1,6 +1,6 @@
 html,
 body {
-  background-image: url(123.jpg);
+  background-image: url(123.png);
    margin:0;
    padding:0;
    height:100%;
@@ -66,7 +66,6 @@ img:hover {
   position: absolute;
   color: white;
   text-align: center;
-  width: 200px;
   font-size: 72px;
   top: 50%;
   opacity: 0;
