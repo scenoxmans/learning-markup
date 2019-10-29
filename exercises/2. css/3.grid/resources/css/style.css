@@ -1,0 +1,101 @@
+
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.mainboard {
+   display: grid;
+   grid-template-columns: 40px 640px 40px;
+   grid-template-rows: 40px 640px 40px;
+  }
+.container{
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(8, [col] 80px);
+  grid-template-rows: repeat(8, [row] 80px);
+  background-image: url(../img/BW.png);
+  background-size: 160px;
+  width: 640px;
+  height: 640px;
+  border: 3px solid #000;
+  box-shadow: 0 5px 8px #777;
+  grid-column: 2;
+  grid-row: 2;
+  grid-template-areas:
+"A8 B8 C8 D8 E8 F8 G8 H8"
+"A7 B7 C7 D7 E7 F7 G7 H7"
+"A6 B6 C6 D6 E6 F6 G6 H6"
+"A5 B5 C5 D5 E5 F5 G5 H5"
+"A4 B4 C4 D4 E4 F4 G4 H4"
+"A3 B3 C3 D3 E3 F3 G3 H3"
+"A2 B2 C2 D2 E2 F2 G2 H2"
+"A1 B1 C1 D1 E1 F1 G1 H1";
+}
+.wrapper-inner{
+      display: flex;
+      justify-content: space-around;
+      grid-column: 2;
+      grid-row: 1;
+
+}
+.cifry{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+      grid-column: 1;
+      grid-row:2;
+}
+.wrapper-down{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      grid-column: 2;
+      grid-row: 3;
+    }
+img{
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:hover{
+
+  background:rgba(50, 50, 250, 0.2);
+}
+
+#ztoren1{grid-area: A8}
+#zpaard1{grid-area:B8}
+#zloper1{grid-area: C8}
+#zkoningin{grid-area: D8}
+#zkoning{grid-area: E8}
+#zloper2{grid-area: F8}
+#zpaard2{grid-area: G8}
+#ztoren2{grid-area: H8}
+#zpion1{grid-area: A7}
+#zpion2{grid-area: B7}
+#zpion3{grid-area: C7}
+#zpion4{grid-area: D7}
+#zpion5{grid-area: E7}
+#zpion6{grid-area: F7}
+#zpion7{grid-area: G7}
+#zpion8{grid-area: H7}
+
+#wtoren1{grid-area: A1}
+#wpaard1{grid-area:B1}
+#wloper1{grid-area: C1}
+#wkoning{grid-area: D1}
+#wkoningin{grid-area: E1}
+#wloper2{grid-area: F1}
+#wpaard2{grid-area: G1}
+#wtoren2{grid-area: H1}
+#wpion1{grid-area: A2}
+#wpion2{grid-area: B2}
+#wpion3{grid-area: C2}
+#wpion4{grid-area: D2}
+#wpion5{grid-area: E2}
+#wpion6{grid-area: F2}
+#wpion7{grid-area: G2}
+#wpion8{grid-area: H2}

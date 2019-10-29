@@ -1,2 +1,2 @@
-Hi:wave:!Welcome. My name is Mansur. 
-Click [this](https://scenoxmans.github.io/learning-markup/) to see my skillz:yum:!
+Hello! My name is Mansur. I am a student at Becode. 
+Click [this](https://scenoxmans.github.io/learning-markup/) to navigate yourself in this repository...
