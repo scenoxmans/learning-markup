@@ -1,0 +1,20 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.warning {
+  border-radius: 50%;
+}
+
+.flexsocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 160px;
+  border: 1px solid;
+}
+/*# sourceMappingURL=style.css.map */
