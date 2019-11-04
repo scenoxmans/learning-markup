@@ -2,10 +2,10 @@ Hello! My name is Mansur. I am a student at Becode.
 Click [this](https://scenoxmans.github.io/learning-markup/.) to navigate yourself in this repository...
 
 #Or you can use these links:
-+ #HTML
++ HTML
 1. [mark-down-to-html]./exercises/1.%20html/1.%20markdown-to-html/index.html]
 *    [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
-+ #CSS
++ CSS
 1. [Aboutme](https://./exercises/2.%20css/1.about-me/AboutMe.html)
 *    [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.%20css/1.about-me/AboutMe.html)
 2. [Flex-box](./exercises/2.%20css/2.flex-box/bombs.html)
