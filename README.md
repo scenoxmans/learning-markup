@@ -3,7 +3,7 @@ Click [this](https://scenoxmans.github.io/learning-markup/.) to navigate yoursel
 
 Or you can use these links:
 1. HTML
-*    [mark-down-to-html](./exercises/1.%20html/1.%20markdown-to-html/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
+*    [mark-down-to-html](exercises/1.%20html/1.%20markdown-to-html/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
 2. CSS
 
 *    [Aboutme](https://./exercises/2.%20css/1.about-me/AboutMe.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.%20css/1.about-me/AboutMe.html)
