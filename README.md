@@ -1,7 +1,7 @@
 Hello! My name is Mansur. I am a student at Becode. 
 Click [this](https://scenoxmans.github.io/learning-markup/.) to navigate yourself in this repository...
 
-#Or you can use these links:
+Or you can use these links:
 1. HTML
 *    [mark-down-to-html](./exercises/1.%20html/1.%20markdown-to-html/index.html) [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
 2. CSS
