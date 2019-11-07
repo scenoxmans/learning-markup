@@ -3,10 +3,10 @@ CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” Wh
 ### Here is a list of exercises that i made to improve my styling skills:
 
 1. CSS
-   * Aboutme [Click me]() - [Raw code]()
-   * Flex-Box [Click me]() - [Raw code]()
-   * Grid-Chess [Click me]() - [Raw code]()
-   * Media-Queries ([Go there]() - [Raw code]()
+   * [Aboutme]() - [Raw code]()
+   * [Flex-Box]() - [Raw code]()
+   * [Grid-Chess]() - [Raw code]()
+   * [Media-Queries]() - [Raw code]()
 
 Hey, want to see this in a prettier format? Click [this]() to see the HTML version of this repository.
 
