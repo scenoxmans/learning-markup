@@ -8,10 +8,10 @@ Click [here]() to go back to navigation page.
 
 ## Goals
 
-- [ ] Increasing your knowledge of HTML.
-- [ ] Increasing your knowledge of CSS.
-- [ ] Learning the basics of flexbox.
-- [ ] Learning the power of teamwork.
-- [ ] Learn to deal with obstacles.
+- [x] Increasing your knowledge of HTML.
+- [x] Increasing your knowledge of CSS.
+- [x] Learning the basics of flexbox.
+- [x] Learning the power of teamwork.
+- [x] Learn to deal with obstacles.
 
  
