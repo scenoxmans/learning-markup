@@ -1,7 +1,5 @@
-Hello! My name is Mansur. I am a student at Becode. 
-Click [this](https://scenoxmans.github.io/learning-markup/.) to navigate yourself in this repository...
 
-Or you can use these links:
+Here are some of the projects I've been working on:
 1. [HTML](https://github.com/scenoxmans/learning-markup/tree/master/exercises/1.%20html)
       *    [mark-down-to-html](https://scenoxmans.github.io/learning-markup/exercises/1.%20html/1.%20markdown-to-html/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
 2. [CSS](https://github.com/scenoxmans/learning-markup/tree/master/exercises/2.%20css)
@@ -12,3 +10,4 @@ Or you can use these links:
       *    [Media-queries](https://scenoxmans.github.io/learning-markup/exercises/2.%20css/4.media-queries/oursite.html) : [Raw code](https://github.com/scenoxmans/learning-markup/tree/master/exercises/2.%20css/4.media-queries)
 3. [SASS](https://github.com/scenoxmans/learning-markup/tree/master/exercises/4.%20sass)
       *    [Multi-pager](https://scenoxmans.github.io/learning-markup/exercises/4.%20sass/multi-pager/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/4.%20sass/multi-pager/index.html)
+
