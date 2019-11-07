@@ -4,12 +4,12 @@ With HTML you can create your own Website.
 ## Here you can find my first HTML page.
 
 1. HTML
-   * [Markdown-to-HTML]() - [Raw code]()
+   * [Markdown-to-HTML](https://scenoxmans.github.io/learning-markup/exercises/1.%20html/1.%20markdown-to-html/) - [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
 
 
-Click [here]() to go back to exercises.
+Click [here](https://github.com/scenoxmans/learning-markup/tree/master/exercises/) to go back to exercises.
 
-Click [here]() to go back to main repository.
+Click [here](https://github.com/scenoxmans/learning-markup) to go back to main repository.
 
-Or if you want to see this in a prettier format? Click [here]() to go to the HTML version of this repository.
+Or if you want to see this in a prettier format? Click [here](https://scenoxmans.github.io/learning-markup/) to go to the HTML version of this repository.
 

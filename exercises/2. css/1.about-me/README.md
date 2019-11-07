@@ -1,10 +1,10 @@
 In this exercise for the first time i used image styling. Google has a bug where it does not see the filter effects if you use them on hover with other effects which in my case was scaling and border-radius. So i had to use a second image. With blur effect already applied via photoshop.
 
-Click [here](index.html) to see it.
+Click [here](https://scenoxmans.github.io/learning-markup/exercises/2.%20css/1.about-me/) to see it.
 
-Click [here]() to go back to my exercises folder.
+Click [here](https://github.com/scenoxmans/learning-markup/tree/master/exercises) to go back to my exercise folder.
 
-Click [here]() to go back to navigation page.
+Click [here](https://scenoxmans.github.io/learning-markup/) to go back to navigation page.
 
 ## Goals
 

@@ -1,10 +1,10 @@
 This exercise was my first encounter with HTML. I had to remake page written in markdown with HTML tags. And add some styling to in which i did. This was a good warmup for exercises to come.
 
-Click [here]() to see it.
+Click [here](https://scenoxmans.github.io/learning-markup/exercises/1.%20html/1.%20markdown-to-html/) to see it.
 
-Click [here]() to go back to my exercises folder.
+Click [here](https://github.com/scenoxmans/learning-markup/tree/master/exercises/1.%20html) to go back to my exercises folder.
 
-Click [here]() to go back to navigation page.
+Click [here](https://scenoxmans.github.io/learning-markup/) to go back to navigation page.
 
 ## Goals
 
