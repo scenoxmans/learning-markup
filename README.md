@@ -6,7 +6,7 @@ Click [this](https://scenoxmans.github.io/learning-markup/.) to navigate yoursel
 
 Or you can use these links:
 1. [HTML](https://github.com/scenoxmans/learning-markup/tree/master/exercises/1.%20html)
-      *    [mark-down-to-html](https://scenoxmans.github.io/learning-markup/exercises/1.%20html/1.%20markdown-to-html/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
+      *    [Mark-down-to-html](https://scenoxmans.github.io/learning-markup/exercises/1.%20html/1.%20markdown-to-html/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/1.%20html/1.%20markdown-to-html/index.html)
 2. [CSS](https://github.com/scenoxmans/learning-markup/tree/master/exercises/2.%20css)
 
       *    [Aboutme](https://scenoxmans.github.io/learning-markup/exercises/2.%20css/1.about-me/index.html) : [Raw code](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.%20css/1.about-me/)
