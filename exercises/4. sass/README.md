@@ -7,5 +7,7 @@ In short, Sass is a CSS preprocessor, which adds special features such as variab
 
 Click [here]() to check out my other exercises.
 
+Click [this]() to see my main repository.
+
 Or [here]() if you wanna see my exercises in much prettier format.
 
