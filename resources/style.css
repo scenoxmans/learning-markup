@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  width: 100%;
+}
 .active  {
     background-color: #4CAF50;
 }
@@ -69,3 +72,300 @@ body {
   display: block;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  margin-top: 150px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+}
+.text-right {
+  font-family: "Lato";
+  margin-right: 5px;
+  color: black;  
+  font-size: 2em;
+}
+.title-text {
+  font-family: "Lato";
+  color: #5FAF51;
+  font-size: 2em;  
+}
+
+.info {
+  display: grid;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+  margin: 0;
+}
+
+.info img {
+  width: auto;
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+}
+
+.info-imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  transition: .1s;
+  width: 70px;
+  height: 70px;
+  transition: .4s;
+}
+
+#img2 {
+  width: 70px;
+  height: 70px;
+  transition: .4s;
+  
+}
+
+#img2:hover {
+  -webkit-animation: swing 1.5s ease;
+  animation: swing 1.5s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  cursor: pointer;
+
+}
+
+#img1 {
+  transition: .4s;
+  width: 60px;
+  height: 65px;
+}
+
+.img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgb(38, 255, 0);
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.img:hover::before {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.img:hover {
+  -webkit-animation: swing 1.5s ease;
+  animation: swing 1.5s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  cursor: pointer;
+}
+
+#img1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgb(38, 255, 0);
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+#img1:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgb(38, 255, 0);
+}
+
+#img1:hover {
+  -webkit-animation: swing 1.5s ease;
+  animation: swing 1.5s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  cursor: pointer;
+}
+
+.text-left {
+  font-family: 'Lato';
+}
+
+.shimmer {
+  top: 50%;
+  left: 50%;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 2em;
+  margin: 0 auto;
+  display: inline;
+  margin-bottom: 0;
+}
+.shimmer {
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+.footer {
+  width: 100vw;
+  height: 215px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.copyright {
+  font-family: 'Lato';
+  font-size: .8em;
+}
+
+
+/* SWING icon-animation */
+
+
+
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
