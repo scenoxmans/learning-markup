@@ -1,11 +1,12 @@
 This exercise was made with two other people from my becode group: Mitchell and Korneel. We faced a lot of problems at the end (just before the dead line) when combining our code.
 But at the end i learned a lot from this project.
 
-Click [here]() to see the exercise.
+Click [here](https://scenoxmans.github.io/learning-markup/exercises/3.%20sass/1.multi-pager/) to see it.
 
-Click [here]() to go back to my exercises folder.
+Click [here](https://github.com/scenoxmans/learning-markup/tree/master/exercises/3.%20sass) to go back to my exercise folder.
 
-Click [here]() to go back to navigation page.
+Click [here](https://scenoxmans.github.io/learning-markup/) to go back to navigation page.
+
 
 ## Goals
 
