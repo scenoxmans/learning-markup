@@ -9,5 +9,5 @@ Here are some of the projects I've been working on:
       *    [Grid-Chess](https://scenoxmans.github.io/learning-markup/exercises/2.css/3.grid/) : [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/3.grid/)
       *    [Media-queries](https://scenoxmans.github.io/learning-markup/exercises/2.css/4.media-queries/) : [</>](https://github.com/scenoxmans/learning-markup/tree/master/exercises/2.css/4.media-queries/)
 3. [SASS](https://github.com/scenoxmans/learning-markup/tree/master/exercises/3.sass)
-      *    [Multi-pager](https://scenoxmans.github.io/learning-markup/exercises/3.sass/multi-pager/) : [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/3.sass/multi-pager/)
+      *    [Multi-pager](https://scenoxmans.github.io/learning-markup/exercises/3.sass/1.multi-pager/) : [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/3.sass/1.multi-pager/)
 
