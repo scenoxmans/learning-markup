@@ -1,8 +1,8 @@
 Here is the FIRST group project where i used media queries... And first encounter with responsive design. Went pretty well... But we had problems with Visual Studio Code's live share plugin. Which is one of the reasons why we couldn't finish this exercise on time.
 
-Click [here](https://scenoxmans.github.io/learning-markup/exercises/2.%20css/media-queries/) to see the exercise.
+Click [here](https://scenoxmans.github.io/learning-markup/exercises/2.css/media-queries/) to see the exercise.
 
-Click [here](https://github.com/scenoxmans/learning-markup/tree/master/exercises/2.%20css) to go back to my exercise folder.
+Click [here](https://github.com/scenoxmans/learning-markup/tree/master/exercises/2.css) to go back to my exercise folder.
 
 Click [here](https://scenoxmans.github.io/learning-markup/) to go back to navigation page.
 
