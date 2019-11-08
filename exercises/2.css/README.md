@@ -3,10 +3,10 @@ CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” Wh
 ### Here is a list of exercises that i made to improve my styling skills:
 
 1. CSS
-   * [Aboutme](https://scenoxmans.github.io/learning-markup/exercises/2.css/1.about-me/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/1.about-me/index.html)
-   * [Flex-Box](https://scenoxmans.github.io/learning-markup/exercises/2.css/2.flex-box/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/2.flex-box/index.html)
-   * [Grid-Chess](https://scenoxmans.github.io/learning-markup/exercises/2.css/3.grid/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/3.grid/index.html)
-   * [Media-Queries](https://scenoxmans.github.io/learning-markup/exercises/3.sass/multi-pager/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/3.sass/multi-pager/index.html)
+   * [Aboutme](https://scenoxmans.github.io/learning-markup/exercises/2.css/1.about-me/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/1.about-me/)
+   * [Flex-Box](https://scenoxmans.github.io/learning-markup/exercises/2.css/2.flex-box/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/2.flex-box/)
+   * [Grid-Chess](https://scenoxmans.github.io/learning-markup/exercises/2.css/3.grid/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/2.css/3.grid/)
+   * [Media-Queries](https://scenoxmans.github.io/learning-markup/exercises/3.sass/multi-pager/) - [</>](https://github.com/scenoxmans/learning-markup/blob/master/exercises/3.sass/multi-pager/)
 
 Hey, want to see this in a prettier format? Click [this](https://scenoxmans.github.io/learning-markup/) to see the HTML version of this repository.
 
