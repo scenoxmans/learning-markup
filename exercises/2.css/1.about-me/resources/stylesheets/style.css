@@ -5,13 +5,15 @@
   box-sizing: border-box;
 }
 body{
-  background: rgb(34,34,34);
-  background: linear-gradient(180deg, rgba(34,34,34,1) 46%, rgba(255,255,255,1) 60%);
+  color: white;
+  background: url(../img/bgforaboutme.png);
+  background-size: cover;
   font-family: 'Caveat', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 .zoom{
   overflow: hidden;
@@ -63,10 +65,10 @@ footer ul{
   font-size: 2rem;
 }
 ul i{
-  color: #222;
+  color: white;
 }
 i:hover{
-  color: white;
+  color: black;
   transform: scale(1.2);
   transition: 300ms;
 }
